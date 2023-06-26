@@ -1,0 +1,78 @@
+.head {
+    height: 90px !important;
+}
+
+.menu {
+    height: 100%;
+}
+
+.menu>ul>li {
+    color: #bcbcbc;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    transition: .3s ease-in-out all;
+}
+
+.menu>ul>li:hover {
+    color: #ffdfdf;
+
+}
+
+.menu>ul>li:nth-of-type(1) {
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+
+.menu>ul>li:nth-of-type(1):hover {
+    color: #ffdfdf;
+
+}
+
+.menu>ul>li:last-child {
+    background-color: #ffdfdf;
+    color: black;
+    transition: 0.3s all ease-in-out;
+}
+
+.menu>ul>li:last-child:hover {
+    color: #ffdfdf;
+}
+
+.txt {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.txt>h2 {
+    font-weight: 900;
+    color: white;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+}
+
+.txt>h2:hover {
+    color: black;
+}
+
+.mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobile>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    text-decoration: none;
+    color: #bcbcbc;
+    cursor: pointer;
+}
+.mobile>a>i{
+    font-size: 25px;
+    color: #bcbcbc;
+}
